@@ -21,9 +21,9 @@ namespace SeleniumTest
             Driver.initializeWeDriver();
 
         }
-
+       
         [Test]
-        public void test()
+        public void LaunchUrlandVerifyLocation()
         {
 
             HomePage.launchUrl();
